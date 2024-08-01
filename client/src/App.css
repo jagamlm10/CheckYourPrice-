@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.product {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  text-align: left;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.results {
+  width: 70vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.search-bar {
+  height: 2rem;
+  width: 20rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.search-result {
+  width: 30rem;
+}
+
+.flipkart {
+  gap: 2rem;
+}
