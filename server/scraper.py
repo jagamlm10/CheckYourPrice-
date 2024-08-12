@@ -16,7 +16,6 @@ def dollar_to_rupee(dollar):
 
 def amazon(query):
     words = query.split()
-    var = len(words)
     query_str = "+".join(words)
     url = "https://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=" + query_str
 
@@ -43,9 +42,7 @@ def amazon(query):
 def snapdeal(query):
 
 
-    # Hacky fix
     words = query.split()
-    var = len(words)
     str = "+".join(words)
 
     url = ("https://www.snapdeal.com/search?keyword=" +str +
